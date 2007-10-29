@@ -2,7 +2,7 @@
 %define plugin	kvdrmon
 %define name	vdr-plugin-%plugin
 %define version	0.6
-%define rel	10
+%define rel	11
 
 Summary:	VDR plugin: kvdrmon support plugin
 Name:		%name
