@@ -2,7 +2,7 @@
 %define plugin	kvdrmon
 %define name	vdr-plugin-%plugin
 %define version	0.6
-%define rel	12
+%define rel	13
 
 Summary:	VDR plugin: kvdrmon support plugin
 Name:		%name
@@ -13,7 +13,7 @@ License:	GPL
 URL:		http://vdr-statusleds.sourceforge.net/kvdrmon/
 Source:		http://prdownloads.sourceforge.net/vdr-statusleds/vdr-%plugin-%version.tar.bz2
 BuildRoot:	%{_tmppath}/%{name}-buildroot
-BuildRequires:	vdr-devel >= 1.4.1-6
+BuildRequires:	vdr-devel >= 1.6.0
 Requires:	vdr-abi = %vdr_abi
 
 %description
@@ -23,6 +23,7 @@ the VDR status.
 
 %prep
 %setup -q -n %plugin-%version
+%vdr_plugin_prep
 
 %vdr_plugin_params_begin %plugin
 # port number to listen in
