@@ -3,7 +3,7 @@
 Summary:	VDR plugin: kvdrmon support plugin
 Name:		vdr-plugin-%plugin
 Version:	0.6
-Release:	18
+Release:	19
 Group:		Video
 License:	GPL
 URL:		http://vdr-statusleds.sourceforge.net/kvdrmon/
