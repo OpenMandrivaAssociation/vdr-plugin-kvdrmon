@@ -6,7 +6,7 @@ Version:	0.6
 Release:	19
 Group:		Video
 License:	GPL
-URL:		http://vdr-statusleds.sourceforge.net/kvdrmon/
+URL:		https://vdr-statusleds.sourceforge.net/kvdrmon/
 Source:		http://prdownloads.sourceforge.net/vdr-statusleds/vdr-%plugin-%{version}.tar.bz2
 BuildRequires:	vdr-devel >= 1.6.0
 Requires:	vdr-abi = %vdr_abi
